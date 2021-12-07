@@ -79,7 +79,8 @@ a
      display: none; 
 }
 */
-.formBox{
+.InfoBox
+{
     width:380px;
 	height:480px;
 	position:relative;
@@ -89,81 +90,20 @@ a
     overflow: hidden;
 }
 .Heading{
-    left: 80px;
-    top: 100px;
+    color: #F3C693;
+    left: 125px;
+    top: 55px;
 	position:absolute;
 	width:280px;
 	transition:.5s;
     font-size: 25px;
     font-family: sans-serif;
 }
-.inputGroupLogin
-{
-	top: 150px;
-	position:absolute;
-	width:280px;
-	transition:.5s;
-}
-
-.inputfield
-{
-	width: 100%;
-	padding:10px 0;
-	margin:5px 0;
-	border-left:0;
-	border-top:0;
-	border-right:0;
-	border-bottom: 1px solid #F3C693;
-	outline:none;
-	background: transparent;
-}
-.LoginButton
-{
-	width: 85%;
-	padding: 10px 30px;
-	cursor: pointer;
-	display: block;
-	margin: auto;
-    margin-top: 30px;
-	background: #F3C693;
-	border: 0;
-	outline: none;
-	border-radius: 30px;
-}
-.Checkbox
-{
-	margin: 30px 10px 34px 0;
-    /* margin: auto; */
-}
-span
-{
-	color:#F3C693;
-	font-size:12px;
-	margin: auto;
-	/* position:absolute; */
-    font-family: sans-serif;
-}
-#login
-{
-	left:50px;
-}
-#login input
-{
-	color:white;
-	font-size:15;
-}
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.Contact{
+    margin-top:110px;
+    text-decoration: none;
     color: #F3C693;
-    opacity: 1; /* Firefox */
-}
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #F3C693;
-}
-
-.forgotPassword{
-    color:#f8d7ce;
-	font-size:12px;
-	margin: auto;
+    font-size: 18px;
+    left: 80px;
     font-family: sans-serif;
-    margin-left: 75px;
 }
