@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Management System</title>
+    <link rel="stylesheet" href="../CSS/home.css">
+</head>
+<body>
+    <div class="fullPage">
+        <div class="navbar"> <!-- Navigation Bar -->
+            <div>
+                <a class="Logo" href="home.html">School Management System</a>   <!-- place logo or image here -->
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li>
+                        <!-- Original Code :  <button class="loginButton" onclick="document.getElementById('loginButton').style.display='block'"style="width:auto;"></button> -->
+                        <button class="loginButton" onclick="document.getElementById('loginButton')">Login</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="loginForm" class="loginPage">
+            <form id="login" class="inputGroupLogin"> <!--Enter the Details to Login-->
+                <input type="text" class="inputfield" placeholder="Username">
+                <input type="password" class="inputfield" placeholder="Password">
+                <input type="checkbox" class="Checkbox"><span>Remember Me</span>
+                <button type="submit" class="submitButton">Log In</button>
+            </form>   
+
+        </div>
+    </div>
+    
+</body>
+</html>
