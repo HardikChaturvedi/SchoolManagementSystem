@@ -73,10 +73,12 @@ a
     font-family: sans-serif;
 }
 
-#loginForm
+/*
+ #loginForm
 {
-    /* display: none; */
+     display: none; 
 }
+*/
 .formBox
 {
     width:380px;
